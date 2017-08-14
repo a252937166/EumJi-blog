@@ -14,9 +14,9 @@ baidu:
 #数据库连接配置
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/zblog
+    url: jdbc:mysql://119.29.169.96:3306/blog
     username: root
-    password: root
+    password: fourge55
     driver-class-name: com.mysql.jdbc.Driver
   thymeleaf:
     mode: HTML5
