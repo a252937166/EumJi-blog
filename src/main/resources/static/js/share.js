@@ -205,9 +205,9 @@ function loadShareInfo(target) {
 	var parent = $(target).parents(".socialShare");
 	var result = {
         content: $(parent).data("content"),
-        url:"www.eumji025.com"+$(parent).data("url"),
+        url:"localhost:8080"+$(parent).data("url"),
         title:$(parent).data("title"),
-        summary:$(parent).data("desc") != null?$(parent).data("desc"):'Eumji个人博客分享,欢迎指教',
+        summary:$(parent).data("desc") != null?$(parent).data("desc"):'欧阳个人博客分享,欢迎指教',
         pic:'http://of8rkrh1w.bkt.clouddn.com/2017/4/21/touxiang.jpg'
 	};
 	return result;

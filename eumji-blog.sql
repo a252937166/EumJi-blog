@@ -241,7 +241,7 @@ create table `user_info`
 
 LOCK TABLES `user_info` WRITE;
 /*!40000 ALTER TABLE `user_info` DISABLE KEYS */;
-INSERT INTO `user_info` (username, avatar, nickname, phone, email, signature, address, announcement, telegram, wechart) VALUES ('admin', 'http://www.eumji025.com/image/avatar.jpg', 'EumJi', '18574406580', 'eumji025@gmail.com', '有些东西，看似离我们很近，但却很远，努力向它靠近，也许能触及到，也许触及不到，顺其自然，平常心对待，其他的都交给时间，或迟或早，都会有一个结果。', '中国 - 张家界', '作者原本单纯的做一个个人博客，所以很多的细节比较随意。<br>
+INSERT INTO `user_info` (username, avatar, nickname, phone, email, signature, address, announcement, telegram, wechart) VALUES ('admin', 'http://qiniu.ouyanglol.com/timg.jpg', '欧阳', '18574406580', 'eumji025@gmail.com', '有些东西，看似离我们很近，但却很远，努力向它靠近，也许能触及到，也许触及不到，顺其自然，平常心对待，其他的都交给时间，或迟或早，都会有一个结果。', '中国 - 张家界', '作者原本单纯的做一个个人博客，所以很多的细节比较随意。<br>
                     目前项目已经托管在github和oschina上，准备长期去优化和维护。<br>
                     如果您有什么好的建议或者想法都可以通过邮件或者issue反馈给我，我会尽量及时的去处理。<br>
                     mail： eumji025@gmail.com<br>

@@ -7,7 +7,7 @@
         <div class="widget">
             <h3 class="follow">友情链接</h3>
             <ul >
-                <!--/*@thymesVar id="partnerList" type="com.eumji.zblog.vo.Partner"*/-->
+                <!--/*@thymesVar id="partnerList" type="com.ouyang.zblog.vo.Partner"*/-->
                 <li th:each="partList : ${partnerList}">
                     <a target="_blank" th:href="${partList.siteUrl}" th:text="${partList.siteName}"></a>
                 </li>

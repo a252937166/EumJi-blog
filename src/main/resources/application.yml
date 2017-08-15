@@ -29,11 +29,11 @@ spring:
     multipart:
       max-file-size: 10MB
   application:
-    name: eumji-blog
+    name: ouyang-blog
 
 #mynatis配置
 mybatis:
-  type-aliases-package: com.eumji.zblog.vo
+  type-aliases-package: com.ouyang.zblog.vo
   #mapper加载路径
   mapper-locations: classpath:mapper/*Mapper.xml
   #myatbis配置文件
