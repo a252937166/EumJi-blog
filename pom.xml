@@ -146,7 +146,7 @@
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>eumji-blog</finalName>
+        <finalName>ouyang-blog</finalName>
     </build>
 
 </project>

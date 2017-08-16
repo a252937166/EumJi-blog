@@ -110,10 +110,16 @@ public class AdminTagController {
     @RequestMapping("update")
     @ResponseBody
     public ResultInfo updateTag(Tag tag){
-        if (tagService.checkExist(tag)){
-            return ResultInfoFactory.getErrorResultInfo("已存在相同的标签名或者别名");
+        try {
+            tag.setAliasName(URLDecoder.decode(tag.getAliasName(),"UTF-8"));
+            tag.setTagName(URLDecoder.decode(tag.getTagName(),"UTF-8"));
+            if (tagService.checkExist(tag)){
+                return ResultInfoFactory.getErrorResultInfo("已存在相同的标签名或者别名");
+            }
+            tagService.updateTag(tag);
+        } catch (UnsupportedEncodingException e) {
+            ResultInfoFactory.getErrorResultInfo("添加失败,字符串格式化错误");
         }
-        tagService.updateTag(tag);
         return ResultInfoFactory.getSuccessResultInfo();
     }
 
