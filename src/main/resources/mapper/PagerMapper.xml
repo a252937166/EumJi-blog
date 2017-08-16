@@ -15,7 +15,7 @@
     </select>
 
     <select id="loadArchivePager" resultType="int">
-        select count(id) from article where DATE_FORMAT(createTime,'%Y-%m') = #{createTime}
+        select count(id) from article where DATE_FORMAT(createTime,'%Y年%m月') = #{createTime}
     </select>
 
 </mapper>

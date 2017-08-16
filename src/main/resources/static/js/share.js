@@ -142,7 +142,7 @@
 				return method(this,param);
 		}else
 			init(this,options);
-    }
+    };
 
 
     //插件默认参数
@@ -151,7 +151,7 @@
         title: document.title,
         content: '',
         pic: ''
-    }
+    };
 
 	//插件方法
 	$.fn.socialShare.methods = {
@@ -186,7 +186,7 @@
 				weixinShare(this,options);
 			});
 	    }
-	}
+	};
 
 
 	//分享地址
@@ -205,10 +205,10 @@ function loadShareInfo(target) {
 	var parent = $(target).parents(".socialShare");
 	var result = {
         content: $(parent).data("content"),
-        url:"localhost:8080"+$(parent).data("url"),
+        url:"http://www.ouyanglol.com/blog"+$(parent).data("url"),
         title:$(parent).data("title"),
         summary:$(parent).data("desc") != null?$(parent).data("desc"):'欧阳个人博客分享,欢迎指教',
-        pic:'http://of8rkrh1w.bkt.clouddn.com/2017/4/21/touxiang.jpg'
+        pic:'http://orqgvixb3.bkt.clouddn.com/timg.jpg'
 	};
 	return result;
 	
