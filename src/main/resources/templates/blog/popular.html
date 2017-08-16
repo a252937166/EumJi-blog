@@ -71,7 +71,8 @@
                             </p>
                         </div>
                         <footer class="article-footer">
-                            <div id="socialShare" class="socialShare"></div>
+                            <div id="socialShare" class="socialShare active" th:data-content="${article.description}"
+                                 th:data-title="${article.title}" th:data-url="'/article/details/'+${article.id}" th:data-desc="${article.description}"></
                         </footer>
                     </div>
                 </article>
@@ -96,8 +97,14 @@
 
     <script src="/js/jquery.min.js"></script>
     <script async src="http://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <script src="/js/article.click.js"></script>
     <script src="/js/share.js"></script>
+    <script src="/js/article-content.js"></script>
+    <script src="/admin/lib/prettify.min.js"></script>
+    <script src="/admin/lib/marked.min.js"></script>
+
+    <script src="/admin/js/editormd.js"></script>
+    <script src="/js/article.click.js"></script>
+
 </div>
 
 </body>

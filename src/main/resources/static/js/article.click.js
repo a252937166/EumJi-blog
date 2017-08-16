@@ -50,12 +50,13 @@ function  loadList(type,id) {
             //初始化文章分页信息
             //初始化文章
             /*分享初始化*/
+
             $(".socialShare").socialShare({
-                content: "EumJi在IT,生活,音乐方面的分享",
-                url:"www.eumji025.com/",
+                content: "欧阳在IT,生活,音乐方面的分享",
+                url:"https://www.ouyanglol.com",
                 title:$("#article-title").text(),
-                summary:'Eumji个人博客分享,欢迎指教',
-                pic:'http://of8rkrh1w.bkt.clouddn.com/2017/4/21/touxiang.jpg'
+                summary:'欧阳个人博客分享,欢迎指教',
+                pic:'http://orqgvixb3.bkt.clouddn.com/timg.jpg'
             });
             $('#loader-wrapper .load_title').remove();
         }

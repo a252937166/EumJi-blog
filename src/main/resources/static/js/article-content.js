@@ -19,8 +19,8 @@ $(function() {
         content: $("#"),
         url:getRootPath()+$("#article-url").attr("href"),
         title:$("#article-title").text(),
-        summary:'Eumji个人博客分享,欢迎指教',
-        pic:'http://of8rkrh1w.bkt.clouddn.com/2017/4/21/touxiang.jpg'
+        summary:'欧阳个人博客分享,欢迎指教',
+        pic:'http://orqgvixb3.bkt.clouddn.com/timg.jpg'
     });
 
     $('#loader-wrapper .load_title').remove();

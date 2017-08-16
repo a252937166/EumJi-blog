@@ -205,7 +205,7 @@ function loadShareInfo(target) {
 	var parent = $(target).parents(".socialShare");
 	var result = {
         content: $(parent).data("content"),
-        url:"http://www.ouyanglol.com/blog"+$(parent).data("url"),
+        url:"https://blog.ouyanglol.com"+$(parent).data("url"),
         title:$(parent).data("title"),
         summary:$(parent).data("desc") != null?$(parent).data("desc"):'欧阳个人博客分享,欢迎指教',
         pic:'http://orqgvixb3.bkt.clouddn.com/timg.jpg'
