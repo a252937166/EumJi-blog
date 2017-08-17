@@ -738,7 +738,7 @@
 @font-face {
   font-family: 'FontAwesome';
   src: url("http://of8rkrh1w.bkt.clouddn.com//editormd/fonts/fontawesome-webfont.eot?v=4.3.0");
-  src: url("http://of8rkrh1w.bkt.clouddn.com//editormd/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("http://of8rkrh1w.bkt.clouddn.com//editormd/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("http://of8rkrh1w.bkt.clouddn.com//editormd/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("http://of8rkrh1w.bkt.clouddn.com//editormd/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("http://of8rkrh1w.bkt.clouddn.com//editormd/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+  src: url("http://of8rkrh1w.bkt.clouddn.com//editormd/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"),  url("http://of8rkrh1w.bkt.clouddn.com//editormd/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -3082,7 +3082,7 @@
 @font-face {
   font-family: 'editormd-logo';
   src: url("http://of8rkrh1w.bkt.clouddn.com//editormd/fonts/editormd-logo.eot?-5y8q6h");
-  src: url(".http://of8rkrh1w.bkt.clouddn.com//editormd/fonts/editormd-logo.eot?#iefix-5y8q6h") format("embedded-opentype"), url("http://of8rkrh1w.bkt.clouddn.com//editormd/fonts/editormd-logo.woff?-5y8q6h") format("woff"), url("http://of8rkrh1w.bkt.clouddn.com//editormd/fonts/editormd-logo.ttf?-5y8q6h") format("truetype"), url("http://of8rkrh1w.bkt.clouddn.com//editormd/fonts/editormd-logo.svg?-5y8q6h#icomoon") format("svg");
+  src: url(".http://of8rkrh1w.bkt.clouddn.com//editormd/fonts/editormd-logo.eot?#iefix-5y8q6h") format("embedded-opentype"), url("http://of8rkrh1w.bkt.clouddn.com//editormd/fonts/editormd-logo.svg?-5y8q6h#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
