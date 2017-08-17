@@ -105,7 +105,7 @@
                 <div id="loader"></div>
                 <div class="loader-section section-left"></div>
                 <div class="loader-section section-right"></div>
-                <div class="load_title">正在加载EumJi站点....<br><span>V1.0</span></div>
+                <div class="load_title">正在加载....<br><span>V1.0</span></div>
             </div>
             <div id="main-article">
                 <article id="post-zuul-vs-nginx-performance" class="article article-type-post" itemscope="" itemprop="blogPost">
@@ -142,8 +142,12 @@
                                 <!--th:href="'/tag/details/'+${tagListStat.tagId}"-->
                                 <a class="article-tag-link" th:data-id="${tag.tagId}" th:text="${tag.tagName}" style="cursor: pointer"></a>
                             </div>
-                        </div>
 
+                            <span id="busuanzi_container_page_pv"><i class="fa fa-eye"></i>
+<span id="busuanzi_value_page_pv"></span>人阅读
+</span>
+
+                        </div>
 
                     </header>
 
@@ -224,6 +228,7 @@
     <script src="/admin/js/editormd.js"></script>
 
     <script src="/js/article.click.js"></script>
+    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 </div>
