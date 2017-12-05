@@ -13,7 +13,7 @@ import java.security.MessageDigest;
  */
 public class Md5Util {
 
-	public static final String PWD_CONST = "EumJi025";
+	public static final String PWD_CONST = "MrOOO";
 
 	public static String pwdDigest(String password){
         return digest(password+PWD_CONST);
