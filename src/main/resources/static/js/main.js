@@ -13,15 +13,6 @@
             }
         });
     });
-    if (lightGallery) {
-        var options = {
-            selector: '.gallery-item',
-        };
-        $('.article-entry').each(function(i, entry) {
-            lightGallery(entry, options);
-        });
-        lightGallery($('.article-gallery')[0], options);
-    }
     if (!!$.prototype.justifiedGallery) {  // if justifiedGallery method is defined
         var options = {
             rowHeight: 140,
