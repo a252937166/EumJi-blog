@@ -1,7 +1,7 @@
 ##七牛云的key
 qiniu:
   accessKey: 0j0DJNycJ8YTqLlgh22aKM57vfeAnfsuQy8ZrBDP
-  secretKey: _mj_dSZo93IGCjZ3JpusTNGWDMjfslfgZFWhnNSw
+  secretKey: mj_dSZo93IGCjZ3JpusTNGWDMjfslfgZFWhnNSw
   bucketName: tencent
   basePath: https://qiniu.ouyanglol.com/
 
